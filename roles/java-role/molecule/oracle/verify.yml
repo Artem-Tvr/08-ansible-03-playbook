@@ -7,7 +7,7 @@
   tasks:
   - name: Check Java can running
     command:
-      cmd: "java -version"
+      cmd: "java-role -version"
     environment:
       PATH: "$PATH:/opt/jdk/jdk-8u271/bin"
     changed_when: false

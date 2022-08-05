@@ -21,14 +21,14 @@
     state: directory
     path: "{{ java_home }}"
     mode: 0755
-- name: Extract java in the installation directory
+- name: Extract java-role in the installation directory
   become: true
   unarchive:
     copy: false
     src: "/tmp/jdk-{{ jdk_distr_name }}"
     dest: "{{ java_home }}"
     extra_opts: [--strip-components=1]
-    creates: "{{ java_home }}/bin/java"
+    creates: "{{ java_home }}/bin/java-role"
   tags: skip_ansible_lint
 - name: Export environment variables
   become: true

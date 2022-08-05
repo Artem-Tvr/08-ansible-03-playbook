@@ -14,5 +14,5 @@ galaxy_info:
         - 8
     - name: ubuntu
       versions: all
-  galaxy_tags: [java, openjdk]
+  galaxy_tags: [java-role, openjdk]
 dependencies: []

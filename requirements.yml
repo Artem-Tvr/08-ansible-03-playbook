@@ -2,7 +2,7 @@
   - src: git@github.com:netology-code/mnt-homeworks-ansible.git
     scm: git
     version: "1.0.1"
-    name: java 
+    name: java-role
     
   - src: git@github.com:Artem-Tvr/08-ansible-03-elastic-role.git
     scm: git

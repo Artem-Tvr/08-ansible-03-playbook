@@ -26,7 +26,7 @@ Or, if you specify rolename to java:
 ```yaml
 - hosts: all
   roles:
-      - java
+      - java-role
 ```
 
 License
