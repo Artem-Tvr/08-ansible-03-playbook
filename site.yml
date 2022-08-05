@@ -1,4 +1,7 @@
 ---
+- hosts: all
+  roles:
+  - java-role
 - hosts: elasticsearch
   roles:
   - elastic-role
